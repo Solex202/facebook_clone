@@ -11,7 +11,7 @@ import {useSession, signOut} from "next-auth/react"
 
 
 const Header = () => {
-    const {data: session} = useSession()
+    const {data: session} = useSession();
 return (
     <div className='bg-white flex items-center p-2 shadow-md top-0 sticky z-50 h-16'>
         {/*Left */}

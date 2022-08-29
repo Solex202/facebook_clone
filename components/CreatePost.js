@@ -48,7 +48,7 @@ const FACEBOOK_CLONE_ENDPOINT = "";
         axios.post(FACEBOOK_CLONE_ENDPOINT, formData, {
             headers: {Accept: "application/json"},
         })
-        .then((Response) => {
+        .then((response) => {
             inputRef.current.value = ""
             removeImage()
         })
